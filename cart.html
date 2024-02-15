@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Cart | NYC Throwback Threads</title>
+</head>
+<body>
+    <nav>
+        <div class="navTop">
+            <div class="navItem">
+                <img src="/img/nyctbthreadslogo.png" alt="store logo" height="100px" width="100px">
+            </div>
+            <div class="navItem">
+                <div class="navSearch">
+                    <input type="text" class="searchInput" placeholder="Search">
+                    <img src="/img/bx-search.svg" alt="searchIcon" class="searchIcon">
+                </div>
+            </div>
+            <div class="navItem">
+                <a href="index.html" class="navLinks">Home</a>
+                <a href="about.html" class="navLinks">About</a>
+                <a href="contact.html" class="navLinks">Contact</a>
+                <a href="cart.html" class="navLinks">
+                    <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i> Cart
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="content">
+        <h1>Your Cart</h1>
+        <div id="cart-items">
+        </div>
+        <div class="cart-summary">
+            <p id="subtotal">Subtotal: $0.00</p>
+            <p id="tax">Tax: $0.00</p>
+            <p id="shipping">Shipping: $0.00</p>
+            <p id="total">Total: $0.00</p>
+            <p id="total-items">Total Items: 0</p>
+        </div>
+        <button id="checkout-button">Checkout</button>
+    </div>
+    <footer>
+        <div class="footerContent">
+            <div class="footerMenu">
+                <h1 class="footMenuTitle">Useful Links</h1>
+                <ul class="footMenuList">
+                    <li class="footListItem"><a href="./about.html">About</a></li>
+                    <li class="footListItem"><a href="./contact.html">Contact</a></li>
+                    <li class="footListItem"><a href="./index.html">Home</a></li>
+                </ul>
+            </div>
+    </footer>
+    <script src="cart.js"></script>
+</body>
+</html>
+
